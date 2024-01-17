@@ -62,5 +62,15 @@ module.exports = {
     } catch (error) {
       console.log(error)
     }
+  },
+
+  // New Method
+  // Install ` wkhtmltopdf ` - sudo apt install wkhtmltopdf
+  async htmlPdf2(req, res) {
+    try {
+
+    } catch (error) {
+
+    }
   }
 }
